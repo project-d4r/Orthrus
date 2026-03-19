@@ -7,6 +7,7 @@ name = "orthrus"
 version = "0.1.0"
 description = "Orthrus is a mature RNA model for RNA property prediction."
 requires-python = ">=3.10"
-license = { text = "MIT" }
-dependencies = ["numpy", "pandas", "cython"]
+license = "MIT"
+dependencies = ["numpy", "pandas"]
+dynamic = ["readme", "authors", "classifiers", "keywords", "entry-points", "optional-dependencies"]
 
