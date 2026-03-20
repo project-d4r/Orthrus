@@ -1,14 +1,10 @@
 [build-system]
 requires = ["setuptools>=36.2,<81", "cython>=3.0", "numpy"]
-build-backend = "setuptools.build_meta:__legacy__"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "orthrus"
 version = "0.1.0"
-description = "Orthrus is a mature RNA model for RNA property prediction."
 requires-python = ">=3.10"
-license = "MIT"
-dependencies = ["numpy", "pandas"]
 readme = "README.md"
-dynamic = ["authors", "classifiers", "keywords", "entry-points", "optional-dependencies"]
-
+dependencies = ["numpy", "pandas"]
